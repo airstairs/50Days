@@ -86,3 +86,6 @@ print(select_peter_paul)
 
 print("_____________1.2.3____________________")
 # Boolean Indexing
+
+print("End of 1.2.2 notes moving 1.2.3 forward notes to new scripts")
+

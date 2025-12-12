@@ -45,3 +45,13 @@ rng = np.random.default_rng()
 # Generate random integers from 0 to 9
 arr = rng.integers(low=0, high=10, size=(2, 4))
 print(arr)
+
+
+print("_____________1.1.6______________________")
+# this method creates an array of random floats between 0 and 1
+# int he shape of 2 rows and 4 columns
+# create random generator
+rng = np.random.default_rng(seed = 24)
+# Generatre random floats between 0 and 1
+arr = rng.random((2, 4))
+print(arr)

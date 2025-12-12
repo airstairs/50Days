@@ -32,3 +32,8 @@ print("_____________1.1.3______________________")
 arr = np.zeros((2, 3), dtype=float)
 print(arr)
 
+
+print("_____________1.1.4______________________")
+# this creates an array with all elements set to 1
+arr = np.ones((2, 3), dtype = float)
+print(arr)

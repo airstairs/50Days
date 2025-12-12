@@ -37,3 +37,11 @@ print("_____________1.1.4______________________")
 # this creates an array with all elements set to 1
 arr = np.ones((2, 3), dtype = float)
 print(arr)
+
+
+print("_____________1.1.5______________________")
+# create a random number generator
+rng = np.random.default_rng()
+# Generate random integers from 0 to 9
+arr = rng.integers(low=0, high=10, size=(2, 4))
+print(arr)

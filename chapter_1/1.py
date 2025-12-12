@@ -22,3 +22,13 @@ print(f"nDimensions: {arr.ndim}")
 
 
 print("_____________1.1.2______________________")
+# this function creates an array with regularly spaced values
+arr = np.arange(0, 50, 5)
+print(arr)
+
+
+print("_____________1.1.3______________________")
+# this function creates an array with all elements set to zero
+arr = np.zeros((2, 3), dtype=float)
+print(arr)
+

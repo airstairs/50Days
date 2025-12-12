@@ -55,3 +55,18 @@ rng = np.random.default_rng(seed = 24)
 # Generatre random floats between 0 and 1
 arr = rng.random((2, 4))
 print(arr)
+
+
+print("_____________1.2______________________")
+print("_____________1.2.1____________________")
+# accessing array elements
+# access a range of elements using a colon (a slice)
+names = [["Jon", "Mary", "Paul"], ["Peter", "Ben", "Saul"]]
+arr = np.array(names)
+print(arr)
+
+# lets say we want to slice out the names mary and pual here is how to do that
+# they are the first row: 0
+# in the first row they are the elements indexes 1 and 2
+select_mary_paul = arr[0,1:]
+print(select_mary_paul)

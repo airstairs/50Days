@@ -70,3 +70,19 @@ print(arr)
 # in the first row they are the elements indexes 1 and 2
 select_mary_paul = arr[0,1:]
 print(select_mary_paul)
+
+print("_____________1.2.2____________________")
+# Fancy Indexing
+# this allows you to select elements based on a list of indices
+# we will use fancy indexing to select the names peter and paul from the array
+arr = np.array(names)
+print(arr)
+# create an elements indices
+select_peter = np.array([1, 0])
+select_paul = np.array([0, 2])
+select_peter_paul = arr[select_peter, select_paul]
+print(select_peter_paul)
+
+
+print("_____________1.2.3____________________")
+# Boolean Indexing
